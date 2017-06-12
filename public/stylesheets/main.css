@@ -362,7 +362,7 @@ ul.disc li::before {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #4C2405;
+	background: #4FBF90;
 	position: absolute;
 	left: -17px;
 	top: 11px;
@@ -371,7 +371,7 @@ ul.disc li::before {
 
 dt {
 	margin: 0;
-	color: #4C2405;
+	color: #4FBF90;
 }
 
 dd {
@@ -681,7 +681,7 @@ input[type="password"]:focus,
 textarea:focus,
 select:focus {
 	color: #1c0d02;
-	border-bottom: 1px solid #4C2405;
+	border-bottom: 1px solid #4FBF90;
 }
 
 label,
@@ -749,7 +749,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
 	border: none;
-	-webkit-text-fill-color: #7c3b08;
+	-webkit-text-fill-color: #4FBF90;
 	transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -866,8 +866,8 @@ button.stroke.large,
 
 button.stroke:hover,
 .button.stroke:hover {
-	border: 3px solid #4C2405;
-	color: #4C2405;
+	border: 3px solid #4FBF90;
+	color: #4FBF90;
 }
 
 button::-moz-focus-inner,
@@ -1072,7 +1072,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-	color: #4C2405;
+	color: #4FBF90;
 }
 
 .stats-tabs li a em {
@@ -1244,7 +1244,7 @@ input::-moz-focus-inner {
 .section-intro h3 {
 	font-family: "montserrat-bold", sans-serif;
 	font-size: 2rem;
-	color: #4C2405;
+	color: #4FBF90;
 	text-transform: uppercase;
 	letter-spacing: .15rem;
 	margin-bottom: 0;
@@ -1619,7 +1619,9 @@ header .header-logo i {
 	visibility: visible;
 	-webkit-overflow-scrolling: touch;
 }
-
+.menu-is-open #menu-nav-wrap hr{
+	border: 1px solid #4FBF91;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * header section 
@@ -1948,7 +1950,7 @@ header .header-logo i {
 #about h3 {
 	font-family: "montserrat-bold", sans-serif;
 	font-size: 1.6rem;
-	color: #4C2405;
+	color: #4FBF90;
 	text-transform: uppercase;
 	letter-spacing: .15rem;
 	margin: 0 0 0 .3rem;
@@ -2053,7 +2055,7 @@ header .header-logo i {
 	top: 0;
 	left: 0;
 	color: rgba(46, 22, 3, 0.4);
-	color: #4C2405;
+	color: #4FBF90;
 }
 
 .about-services ul.services .icon-wrap i {
@@ -2237,7 +2239,7 @@ header .header-logo i {
 
 #skills .section-intro h3 {
 	color: rgba(255, 255, 255, 0.35);
-	color: #7c3b08;
+	color: #4FBF90;
 }
 
 #skills .section-intro h1 {
@@ -2249,7 +2251,7 @@ header .header-logo i {
 }
 
 #skills .skill-bars li {
-	background: #7c3b08;
+	background: #4FBF90;
 	margin-bottom: 7.2rem;
 }
 
@@ -2310,7 +2312,7 @@ header .header-logo i {
 
 #credentials .credentials-content h2 {
 	margin-bottom: 4.8rem;
-	color: #4C2405;
+	color: #4FBF90;
 	padding-left: 8rem;
 	font-size: 1.8rem;
 	text-transform: uppercase;
@@ -2364,7 +2366,7 @@ header .header-logo i {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
-	background: #4C2405;
+	background: #4FBF90;
 	border-radius: 50%;
 	text-align: center;
 	color: #FFFFFF;
@@ -2677,7 +2679,7 @@ header .header-logo i {
 
 .lg-outer .lg-thumb-item.active,
 .lg-outer .lg-thumb-item:hover {
-	border-color: #7c3b08;
+	border-color: #4FBF90;
 }
 
 .lg-progress-bar .lg-progress {
@@ -2735,7 +2737,7 @@ header .header-logo i {
 }
 
 #stats .stat h3 {
-	color: #7c3b08;
+	color: #4FBF90;
 	font-size: 4.8rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -2806,7 +2808,7 @@ header .header-logo i {
 }
 
 #contact .section-intro h3 {
-	color: #7c3b08;
+	color: #4FBF90;
 }
 
 #contact .section-intro p.lead {
@@ -2871,7 +2873,7 @@ header .header-logo i {
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: #4C2405;
+	background: #4FBF90;
 }
 
 #contact form .form-field label::after {
@@ -2881,7 +2883,7 @@ header .header-logo i {
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #4C2405;
+	border-right: 5px solid #4FBF90;
 	content: "";
 }
 
@@ -2906,7 +2908,7 @@ header .header-logo i {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: #4C2405;
+	border-color: #4FBF90;
 	color: #FFFFFF;
 }
 
@@ -2916,7 +2918,7 @@ header .header-logo i {
 }
 
 #contact textarea:focus {
-	border-color: #4C2405;
+	border-color: #4FBF90;
 	color: #FFFFFF;
 }
 
@@ -2929,13 +2931,13 @@ header .header-logo i {
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: #7c3b08;
+	background: #4FBF90;
 	color: #FFFFFF;
 }
 
 #contact button.submitform:hover,
 #contact button.submitform:focus {
-	background: #4C2405;
+	background: #4FBF90;
 }
 
 #message-warning,
@@ -2952,7 +2954,7 @@ header .header-logo i {
 }
 
 #message-success {
-	color: #7c3b08;
+	color: #4FBF90;
 }
 
 #message-warning i,
