@@ -2251,7 +2251,11 @@ header .header-logo i {
 }
 
 #skills .skill-bars li {
+<<<<<<< HEAD
 	background: #262626;
+=======
+	background: #4FBF90;
+>>>>>>> f3796337e91d111f26aaed89c4d4c68709f5ac87
 	margin-bottom: 7.2rem;
 }
 
