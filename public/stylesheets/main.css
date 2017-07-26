@@ -2187,6 +2187,15 @@ header .header-logo i {
  *  11. skills - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
+ #skills .skill-bars {
+    margin-top: 8.4rem;
+    position: relative;
+}
+.skills-wrap {
+	width: 94%;
+	max-width: 1300px;
+	margin: 0 auto;
+}
 #skills {
 	background-color: #1f0e01;
 	background-image: url(../images/skills-bg.jpg);
@@ -2266,11 +2275,19 @@ header .header-logo i {
 #skills .skill-bars li .progress {
 	background: #FFFFFF;
 }
+.skills-wrap h3{
+	font-family: "montserrat-bold", sans-serif;
+    font-size: 1.6rem;
+    color: #4FBF90;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    margin: 0 0 0 .3rem;
+}
 /*Chart.js */
 canvas#myChart {
     position: absolute;
     padding-left: 9rem;
-    margin-top: 3.5em;
+    margin-top: 8.5em;
 }
 /*contact Modal*/
 div#myModal {
