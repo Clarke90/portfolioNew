@@ -879,9 +879,9 @@ input::-moz-focus-inner {
 /*Speed Test*/
 div#speedtest {
     color: #4FBF90;
-    border: 1px solid;
-    width: 120px;
+    width: 100%;
     padding: 3px;
+    margin-top: 25px;
 }
 /* ===================================================================
  *  06. other components - (_others.scss)
