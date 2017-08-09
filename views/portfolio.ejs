@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta charset="utf-8">
+	<title>Chad Clarke's Portfolio</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ 	
+ 	<!-- Bootstrap 
+   ================================================== -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="/stylesheets/base.css">
+   <link rel="stylesheet" href="/stylesheets/vendor.css">  
+   <link rel="stylesheet" href="/stylesheets/main.css">  
+
+   <!-- Default scripts
+   ================================================== -->
+	<script src="/javascripts/modernizr.js"></script>
+	<script src="/javascripts/pace.min.js"></script>
+   <!-- chart.js -->
+
+   <!-- script
+   ================================================== -->
+	<script src="/javascripts/modernizr.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
+	 <!-- load time
+   ================================================== -->
+	<script type="text/javascript">
+        var timerStart = Date.now();
+    </script>
+  </head>
+
+  <body id="top">
+  <!-- header 
+   ================================================== -->
+   <header> 
+
+   	<div class="header-logo">
+   		<i class="fa fa-copyright" aria-hidden="true"></i>
+	</div> 
+
+		<a id="header-menu-trigger" href="#0">
+		 	<span class="header-menu-text">Menu</span>
+		  	<span class="header-menu-icon"></span>
+		</a> 
+
+		<nav id="menu-nav-wrap">
+
+			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
+
+	   		<h3>Howdy.</h3>  
+
+			<ul class="nav-list">
+				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
+				<li><a class="smoothscroll" href="#about" title="">About</a></li>
+				<li><a class="smoothscroll" href="#skills" title="">Skills</a></li>
+				<li><a class="smoothscroll" href="#credentials" title="">Experience</a></li>
+				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
+				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+				<hr>
+				<!-- <li><a class="smoothscroll" href="#contact" title="">Cover Letter</a></li>	 -->
+
+				<li><a class="smoothscroll" href="/ChadClarke_Resume.pdf" download="Chad Clarkes Resume">Resume</a></li>			
+
+				<li><a class="smoothscroll" href="#contact" title="">Google Certification</a></li>	
+			</ul>	
+
+			<ul class="header-social-list">
+	        
+	         <li>
+	         	<a href="https://www.linkedin.com/in/chad-clarke-478327115?trk=hp-identity-name"><i class="fa fa-linkedin"></i></a>
+	         </li>
+            <li>
+            	<a href="https://github.com/Clarke90"><i class="fa fa-github"></i></a>
+            </li>
+	         <li>
+	         	<a href="#"><i class="fa fa-twitter"></i></a>
+	         </li>
+	         <li>
+	         	<a href="#"><i class="fa fa-snapchat"></i></a>
+	         </li>
+	         <li>
+	         	<a href="https://www.instagram.com/chadclarke15"><i class="fa fa-instagram"></i></a>
+	         </li>
+	      </ul>		
+			<div>
+				<div id="speedtest">
+					<span><i class="fa fa-tachometer" aria-hidden="true"></i> Run Speed Test</span>
+				</div>
+				<div id="testResults"></div>
+			</div>
+		</nav>  <!-- end #menu-nav-wrap -->
+
+	</header> <!-- end header -->  
+
+	<!-- portfolio
+   ================================================== -->
+   <section id="portfolio">
+
+   	<div class="row narrow section-intro with-bottom-sep">
+   		<div class="col-twelve">
+   			<h3 class="dont-animate-this">Portfolio</h3>
+	   		<h1 class="dont-animate-this">See My Latest Projects.</h1>  			
+	   		
+
+	   		<p class="lead dont-animate-this">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>	   			
+
+	   		<p class="lead animate-this">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>	   			
+
+   		</div>   		
+   	</div> <!-- end row section-intro -->
+
+   	<div class="row portfolio-content">
+   		<div class="col-twelve">
+   			<div id="folio-wrap" class="bricks-wrapper">					
+
+   				<div class="brick folio-item">
+	               <div class="item-wrap dont-animate-this" data-src="images/portfolio/gallery/g-skaterboy.jpg" data-sub-html="#01" > 	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/skaterboy.jpg" alt="Skaterboy">	                     
+	                     <div class="item-text">
+	                     	<span class="folio-types">
+		     					      Web Development
+		     					   </span>na
+		     					   <h3 class="folio-title">Skaterboy</h3>	     					   
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-UpRightArrow"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+						
+						<div id="01" class='hide'>
+							<h4>Skater Boy</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap dont-animate-this" data-src="images/portfolio/gallery/portfolio-eFireApp.jpg" data-sub-html="#02"> 	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/portfolio-eFireApp.jpg" alt="Napoleon eFire App">	                     
+	                     <div class="item-text">
+	                     	<span class="folio-types">
+		     					      Landing Page
+		     					   </span>
+		     					   <h3 class="folio-title">Napoleon eFire App</h3>  	     					   
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-UpRightArrow"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="02" class='hide'>
+							<h4>Shutterbug</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap dont-animate-this" data-src="images/portfolio/gallery/portfolio-FDS.jpg" data-sub-html="#03" >   	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/portfolio-FDS.jpg" alt="Explore">	                     
+	                     <div class="item-text">	                     		     					    
+		     					   <span class="folio-types">
+		     					      UI/UX Design
+		     					   </span>
+		     					   <h3 class="folio-title">Napoleon FDS</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-UpRightArrow"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->	
+
+	               <div id="03" class='hide'>
+							<h4>Explore</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>               
+	        		</div> <!-- end folio-item -->
+
+					<div class="brick folio-item">
+	               <div class="item-wrap dont-animate-this"  data-src="images/portfolio/gallery/cannabisConsulting.jpg"  data-sub-html="#04" >
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/cannabisConsulting.jpg" alt="cannabisConsulting">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Web Design
+		     					   </span>
+		     					   <h3 class="folio-title">Minimalismo</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-UpRightArrow"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="04" class='hide'>
+							<h4>Minimalismo</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>  	               
+	        		</div> <!-- end folio-item -->
+
+					<div class="brick folio-item">
+	               <div class="item-wrap dont-animate-this"  data-src="images/portfolio/gallery/powassanMiniStorage.jpg"  data-sub-html="#05" >  	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/powassanMiniStorage.jpg" alt="powassanMiniStorage">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Branding
+		     					   </span>
+		     					   <h3 class="folio-title">Bicycle</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-UpRightArrow"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="05" class='hide'>
+							<h4>Bicycle</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->
+	           
+					<div class="brick folio-item">
+	               <div class="item-wrap dont-animate-this"  data-src="images/portfolio/gallery/cannabiscontractor.jpg"  data-sub-html="#06">     	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/cannabiscontractor.jpg" alt="Salad">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Photography
+		     					   </span>
+		     					   <h3 class="folio-title">Salad</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-UpRightArrow"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="06" class='hide'>
+							<h4>Salad</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->   				
+
+   			</div> <!-- end folio-wrap -->
+
+   		</div> <!-- end twelve -->
+   	</div> <!-- end portfolio-content -->   	
+
+   </section>  <!-- end portfolio -->
+
+	<!-- contact
+   ================================================== -->
+   <section id="contact">
+
+      <div class="overlay"></div>
+
+		<div class="row narrow section-intro">
+   		<div class="col-twelve">
+   			<h3 class="dont-animate-this">Contact</h3>
+   			<h1 class="dont-animate-this">I'm Available for Freelance Work. Feel Free to Contact Me.</h1>
+
+
+   			<p class="lead dont-animate-this">Your email isn't going to sit in the inbox abyss, never to be seen or heard from again. Send me a message and i will to my best to get back to you asap.</p>
+
+   			<p class="lead animate-this">Your email isn't going to sit in the inbox abyss, never to be seen or heard from again. Send me a message and i will to my best to get back to you asap.</p>
+
+   		</div> 
+   	</div> <!-- end section-intro -->
+
+   	<div class="row contact-form">
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post">
+
+                  <div class="form-field dont-animate-this">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field dont-animate-this">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field dont-animate-this">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field dont-animate-this">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div> 
+
+                  <div class="form-field dont-animate-this">
+                     <button class="submitform">Submit</button>
+
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning"></div> 
+
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- end col-twelve -->   		
+   	</div> <!-- end row contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+   			<h5 class="dont-animate-this">Where to find me</h5>
+
+   			<p class="dont-animate-this">
+            Toronto, Ontario<br>
+            <br>
+            </p>
+   		</div> <!-- end col-four -->
+
+   		<div class="col-four tab-full">
+   			<h5 class="dont-animate-this">Email Me At</h5>
+
+   			<p class="dont-animate-this">
+   				chadclarke15@gmail.com<br>			     
+			   </p>
+   		</div> <!-- end col-four -->
+
+   		<div class="col-four tab-full">
+   			<h5 class="dont-animate-this">Call Me At</h5>
+
+   			<p class="dont-animate-this">
+			   	(705) 795-0645<br>
+			   </p>
+   		</div> <!-- end col-four -->
+   		
+   	</div> <!-- end row contact-info -->
+		
+	</section> <!-- end contact -->
+
+
+	<!-- footer
+   ================================================== -->
+	<footer>
+     	<div class="row">
+
+     		<div class="col-twelve tab-full social">
+     			<ul class="footer-social">        
+			      <!-- <li><a href="#">Facebook</a></li> -->
+			      <li><a href="https://www.linkedin.com/in/chad-clarke-478327115?trk=hp-identity-name">Linkedin</a></li>
+			      <li><a href="https://github.com/Clarke90">Github</a></li>
+			      <li><a href="https://www.snapchat.com/clarkescrusade">Snapchat</a></li>
+			      <li><a href="https://www.instagram.com/chadclarke15">Instagram</a></li>
+			   </ul> 	      		
+	      </div>
+
+      	<div class="col-twelve tab-full">
+	      	<div class="copyright">
+		        	<img src="images/canadaFlag.png">	
+		        		<br>
+		        	<span>© Copyright Chad Clarke 2017.</span> 	        	         	
+		      </div>		                  
+	      </div>      	
+
+      </div> <!-- end row -->
+
+      <div id="go-top">
+		   <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-UpArrow"></i></a>
+		</div>		
+   </footer>
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="/javascripts/jquery-2.1.3.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script src="/javascripts/plugins.js"></script>
+   <script src="/javascripts/main.js"></script>
+
+	 <script type="text/javascript">
+	    $(window).load(function() {
+	 		var time = ("Time until everything loaded: ", Date.now()-timerStart);
+	  	   $( "#speedtest" ).one( "click", function() {
+	  		 $( "#testResults" ).append( time + " seconds");
+			});
+	  	});
+	</script>
+
+
+   
+  </body>
+</html>
